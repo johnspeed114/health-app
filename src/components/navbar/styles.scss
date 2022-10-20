@@ -1,0 +1,90 @@
+@use '../../styles.scss';
+
+.nav {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  background: #414141;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+  height: 64px;
+}
+
+.nav__logo-container {
+  position: absolute;
+  width: 144px;
+  left: 160px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.nav__memo-container {
+  // TODO:refactor here there are a lot of redunt code in this all three memo containers
+  position: absolute;
+  width: 160px;
+  left: calc(50% - 160px / 2 + 32px);
+  top: 8px;
+  bottom: 8px;
+  h4 {
+    @include styles.text-theme;
+    position: absolute;
+    height: 23px;
+    right: 16px;
+    top: calc(50% - 23px / 2 - 0.5px);
+  }
+  img {
+    position: absolute;
+    width: 32px;
+    left: 8px;
+    top: 8px;
+    bottom: 8px;
+  }
+}
+
+.nav__challenge-container {
+  position: absolute;
+  width: 160px;
+  left: calc(50% - 160px / 2 + 192px);
+  top: 8px;
+  bottom: 8px;
+  h4 {
+    @include styles.text-theme;
+    position: absolute;
+    width: 96px;
+    height: 23px;
+    right: 16px;
+    top: calc(50% - 23px / 2 - 0.5px);
+  }
+  img {
+    position: absolute;
+    width: 32px;
+    left: 8px;
+    top: 8px;
+    bottom: 8px;
+  }
+}
+
+.nav__info-container {
+  position: absolute;
+  width: 160px;
+  left: calc(50% - 160px / 2 + 352px);
+  top: 8px;
+  bottom: 8px;
+  h4 {
+    @include styles.text-theme;
+    position: absolute;
+    width: 96px;
+    height: 23px;
+    right: 16px;
+    top: calc(50% - 23px / 2 - 0.5px);
+  }
+  img {
+    position: absolute;
+    width: 32px;
+    left: 8px;
+    top: 8px;
+    bottom: 8px;
+  }
+}
