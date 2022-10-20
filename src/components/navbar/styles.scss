@@ -27,7 +27,7 @@
   left: calc(50% - 160px / 2 + 32px);
   top: 8px;
   bottom: 8px;
-  h4 {
+  div {
     @include styles.text-theme;
     position: absolute;
     height: 23px;
@@ -36,7 +36,7 @@
   }
   img {
     position: absolute;
-    width: 32px;
+
     left: 8px;
     top: 8px;
     bottom: 8px;
@@ -49,7 +49,7 @@
   left: calc(50% - 160px / 2 + 192px);
   top: 8px;
   bottom: 8px;
-  h4 {
+  div {
     @include styles.text-theme;
     position: absolute;
     width: 96px;
@@ -59,7 +59,6 @@
   }
   img {
     position: absolute;
-    width: 32px;
     left: 8px;
     top: 8px;
     bottom: 8px;
@@ -72,7 +71,7 @@
   left: calc(50% - 160px / 2 + 352px);
   top: 8px;
   bottom: 8px;
-  h4 {
+  div {
     @include styles.text-theme;
     position: absolute;
     width: 96px;
@@ -82,9 +81,15 @@
   }
   img {
     position: absolute;
-    width: 32px;
     left: 8px;
     top: 8px;
     bottom: 8px;
   }
+}
+
+.nav__menu-container {
+  position: absolute;
+  height: 32px;
+  left: calc(50% - 160px / 2 + 512px);
+  top: calc(50% - 32px / 2);
 }

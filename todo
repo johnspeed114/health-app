@@ -4,10 +4,10 @@
 
 ---Top Page---
 [] Should have a navbar
--> [] Logo should display on the left top left
--> [] item with icon all three on the right
--> [] have the hamburger icon for the dropdown on the righest
--> [] For the お知らせ have number 1 on the top right like a notification
+-> [x] Logo should display on the left top left
+-> [x] item with icon all three on the right
+-> [x] have the hamburger icon for the dropdown on the righest
+-> [] For the お知らせ have number 1 on the top right like a notification <--
 -> [] when clicking the hamburger icon dropdown occurs
 
 > > > Question NEED To Be Asked<<<

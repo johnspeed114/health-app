@@ -14,18 +14,18 @@ function Navbar(props) {
       </div>
       <div className='nav__memo-container'>
         <img src={memoIcon} alt='Memo Icon' width={32} />
-        <h4>自分の記録</h4>
+        <div>自分の記録</div>
       </div>
       <div className='nav__challenge-container'>
         <img src={challengeIcon} alt='Challenge Icon' width={32} />
-        <h4>チャレンジ</h4>
+        <div>チャレンジ</div>
       </div>
       <div className='nav__info-container'>
         <img src={infoIcon} alt='Info Icon' width={32} />
-        <h4>お知らせ</h4>
+        <div>お知らせ</div>
       </div>
       <div className='nav__menu-container'>
-        <img src={menuIcon} />
+        <img src={menuIcon} width={32} alt='' />
       </div>
     </div>
   );
