@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.scss';
 import logo from '../../assets/logo.png';
 import memoIcon from '../../assets/icon_memo.png';
 import challengeIcon from '../../assets/icon_challenge.png';
 import infoIcon from '../../assets/icon_info.png';
-import menuIcon from '../../assets/icon_menu.png';
+import Dropdown from '../dropdown/Dropdown';
 
 function Navbar(props) {
+  const [num] = useState(1);
   return (
     <div className='nav'>
       <div className='nav__logo-container'>
@@ -21,11 +22,13 @@ function Navbar(props) {
         <div>チャレンジ</div>
       </div>
       <div className='nav__info-container'>
+        <div className='nav__badge'>{num}</div>
         <img src={infoIcon} alt='Info Icon' width={32} />
+
         <div>お知らせ</div>
       </div>
       <div className='nav__menu-container'>
-        <img src={menuIcon} width={32} alt='' />
+        <Dropdown />
       </div>
     </div>
   );

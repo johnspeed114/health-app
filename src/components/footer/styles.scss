@@ -1,0 +1,52 @@
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 128px;
+  left: 0px;
+  top: 1184px;
+  background-color: #414141;
+}
+
+@mixin footer-item-style {
+  position: absolute;
+  width: 67px;
+  top: 56px;
+  bottom: 56px;
+
+  font-family: 'Hiragino Kaku Gothic Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.033px;
+
+  color: #ffffff;
+}
+.footer__item:first-child {
+  @include footer-item-style;
+  left: 160px;
+}
+.footer__item:nth-child(2) {
+  @include footer-item-style;
+  left: 250px;
+}
+.footer__item:nth-child(3) {
+  @include footer-item-style;
+  width: 45px !important;
+  left: calc(50% - 45px / 2 - 277.5px);
+}
+.footer__item:nth-child(4) {
+  @include footer-item-style;
+  width: 121px;
+  left: calc(50% - 121px / 2 - 150.5px);
+}
+.footer__item:nth-child(5) {
+  @include footer-item-style;
+  width: 133px;
+  left: calc(50% - 133px / 2 + 22.5px);
+}
+.footer__item:nth-child(6) {
+  @include footer-item-style;
+  width: 133px;
+  right: 439px;
+}

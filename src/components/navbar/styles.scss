@@ -1,4 +1,11 @@
 @use '../../styles.scss';
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('../../assets/Inter-Thin.woff2') format('woff2');
+}
 
 .nav {
   position: absolute;
@@ -84,6 +91,24 @@
     left: 8px;
     top: 8px;
     bottom: 8px;
+  }
+  .nav__badge {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: calc(50% - 16px / 2 - 40px);
+    top: calc(50% - 16px / 2 - 8px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(224, 105, 2);
+    opacity: 100%;
+    color: white;
   }
 }
 

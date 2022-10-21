@@ -8,7 +8,7 @@
 -> [x] item with icon all three on the right
 -> [x] have the hamburger icon for the dropdown on the righest
 -> [] For the お知らせ have number 1 on the top right like a notification <--
--> [] when clicking the hamburger icon dropdown occurs
+-> [x] when clicking the hamburger icon dropdown occurs
 [] Should have a footer
 -> [] Should have all text needed to displayed there
 -> [] Should have links button connected each needed text? maybe? need to check
@@ -24,3 +24,4 @@
 - There is a circle up arrow on the lower right of each page. Should I incorporate a function to back up to the top of the page?
 - No responsive desing for now, just desktop?
 - is the navbar sticky?
+- this going to be view for 1280px only then?

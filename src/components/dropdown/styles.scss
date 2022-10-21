@@ -1,0 +1,29 @@
+.dropdown {
+  position: relative;
+  width: 195px;
+  height: 464px;
+  .menu-list__close {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    img {
+      background-color: #414141;
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 165px;
+      top: 0px;
+    }
+  }
+  .menu-list__item {
+    background-color: #777777;
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 72px;
+    color: #ffffff;
+    padding-left: 32px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+}
