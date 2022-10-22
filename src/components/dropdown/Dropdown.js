@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import menuIcon from '../../assets/icon_menu.png';
-import closeIcon from '../../assets/icon_close.png';
+import menuIcon from '../../assets/icons/icon_menu.png';
+import closeIcon from '../../assets/icons/icon_close.png';
 import './styles.scss';
 
 const Dropdown = () => {

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './styles.scss';
-import logo from '../../assets/logo.png';
-import memoIcon from '../../assets/icon_memo.png';
-import challengeIcon from '../../assets/icon_challenge.png';
-import infoIcon from '../../assets/icon_info.png';
+import logo from '../../assets/images/logo.png';
+import memoIcon from '../../assets/icons/icon_memo.png';
+import challengeIcon from '../../assets/icons/icon_challenge.png';
+import infoIcon from '../../assets/icons/icon_info.png';
 import Dropdown from '../dropdown/Dropdown';
 
 function Navbar(props) {
